@@ -1,0 +1,111 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+
+body {
+	height: 100vh;
+	background-image:	url('img/html.jpg') ;
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+
+}
+.container {
+	padding: 15px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.40);
+}
+.login-page {
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	width: 400px;
+	height: 500px;
+	margin: 60px auto;
+	padding: 10px;
+	background-image: url(img/html.jpg);
+	background-size: cover;
+	background-position: 0 0 30px 0;
+	border: 0.25px solid whitesmoke;
+	border-radius: 25px;
+	box-shadow: 4px 4px rgba(48, 79, 254, 0.50);
+}
+.login-profile {
+	width: 100px;
+	height: 100px;
+	margin: 15px auto;
+	padding: 15px;
+	background-image: url('img/kartun.jpg');
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	transform: translateY(30px);
+	border: 1px solid rgba(48, 79, 254, 0.75);
+	border-radius: 100px;
+}
+.login-profile:hover {
+	width: 115px;
+	height: 115px;
+	transition: all .2s ease-in-out;
+}
+
+.login-form {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	box-sizing: border-box;
+	transform: translateY(30%);
+
+}
+.login-form > input {
+	padding: 18px;
+	box-sizing: border-box;
+	border-radius: 100px;
+	border: 2px solid rgba(48, 79, 254, 0.75);
+
+}
+
+.login-form > input::placeholder {
+	font-size: 19px;
+	color: #BDBDBD;
+}
+.login-form > input:focus {
+	background-color: #FAFAFA;
+	box-shadow: 5px 6px solid darkred;
+	border-color: 2px solid rgba(48, 79, 254, 0.75);
+}
+
+.check {
+	padding-left: 25px;
+	box-sizing: border-box;
+	transform: translateY(70px);
+}
+
+.check > label {
+	padding-left: 5px;
+	box-sizing: border-box;
+	color: white;
+}
+
+.login-button {
+	background-color: rgb(48, 79, 254);
+	display: flex;
+	justify-content: center;
+	text-transform: capitalize;
+	transform: translateY(30px);
+	margin: auto;
+	padding: 8px;
+	width: 60px;
+	font-size: 20px;
+	color: white;
+	border-radius: 50px;
+}
+.login-button:hover {
+	cursor: pointer;
+	width: 65px;
+	height: 25px;
+	transition: all .3s ease-in-out;
+}

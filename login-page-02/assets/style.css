@@ -1,0 +1,235 @@
+*, html {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body {
+	position: relative;
+	height: 120vh;
+	background-image: url('img/gedung.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.black {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, .4);
+	background-size: cover;
+	background-position: center;
+}
+
+.container {
+	position: relative;
+	left: 0;
+	right: 0;
+	width: 600px;
+	padding: 10px;
+	margin: 20px auto;
+	box-sizing: border-box;
+	border-radius: 50px;
+	box-shadow: 1px 1px 50px black;
+	border: 0.2px solid darkorange;
+	animation-name: fade-in;
+	animation-duration: 3s;
+	animation-timing-function: ease-out;
+}
+
+.profile {
+	width: 70px;
+	height: 70px;
+	padding: 5px;
+	margin: auto;
+	margin-top: 3em;
+	margin-bottom: 2em;
+	background-image: url('img/cute.gif');
+	background-size: cover;
+	background-position: center;
+	border-radius: 100%;
+	box-shadow: 1px 1px 10px darkorange;
+	transition: .5s ease;
+
+}
+.profile:hover {
+	transform: scale(1.2);
+}
+
+.same > input {
+	display: flex;
+	margin: 5px;
+	outline: none;
+	border: none;
+	padding: 18px;
+	padding-right: 5em;
+	border-radius: 50px;
+	background-color: rgba(255, 140, 0, .75);
+}
+
+
+.same > input::placeholder {
+	color: white;
+	text-shadow: 1px 1px rgba(0, 0, 0, .8);
+	font-size: 15px;
+	letter-spacing: 1.5px;
+	padding-left: 8px;
+}
+
+.upDown {
+	display: flex;
+	justify-content: center;
+	
+}
+.upDown .fName, .upDown .pass-01 {
+	display: flex;
+	margin-right: 20px;
+}
+.upDown .lName, .upDown .pass-02 {
+	display: flex;
+	margin-left: 20px;
+}
+
+.form-02, .form-03, .form-04, .form-06 {
+	display: flex;
+	margin-left: 15px;
+}
+.form-02, .form-03, .form-04, .form-05 .form-06, .form-07 {
+	margin: 8px 0 8px 15px;
+}
+.form-03 > input, .form-04 > input {
+	display: flex;
+	margin-left: 0;	
+}
+.gender, .religi {
+	outline: none;
+	border: none;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+	border-radius: 100px;
+	padding: 10px;
+	padding-left: 1.7em;
+	text-transform: capitalize;
+}
+
+.form-02 .gender {
+	display: flex;
+	margin-right: 8px;
+	background-color: rgba(255, 140, 0, .75);
+	color: white;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px rgba(0, 0, 0, .8);
+}
+
+.form-02 .religi {
+	display: flex;
+	margin-left: 8px;
+	background-color: rgba(255, 140, 0, .75);
+	color: white;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px rgba(0, 0, 0, .8);
+}
+.form-06 {
+	display: flex;
+	margin-top: 5px;
+	margin-top: 1.5rem;
+}
+.form-06 > label {
+	display: flex;
+	margin-left: 8px;
+	color: white;
+	text-transform: capitalize;
+}
+.form-07 {
+	display: flex;
+	justify-content: center;
+	margin-top: 2rem;
+
+}
+
+.form-07 > button {
+	display: flex;
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+	outline: none;
+	border: none;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+	padding: 18px;
+	border-radius: 50px;
+	font-size: 15px;
+	color: white;
+	background-color: rgba(255, 140, 0, .75);
+	transition: .2s ease;
+	cursor: pointer;
+}
+
+.form-07 > button:hover {
+	transform: scale(1.2);
+}
+
+.same > input:focus {
+	color: darkorange;
+	background-color: transparent;
+	border: 1px solid darkorange;
+	box-shadow: 1px 1px .8px darkorange;
+}
+.same > input:focus::placeholder {
+	color: darkorange;
+	font-weight: bold;
+	text-shadow: 1px 1px rgba(0, 0, 0, 1.0);
+}
+.create {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.create > p {
+	color: white;
+	margin-left: 5px;
+	letter-spacing: 2px;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.create > p > a {
+	padding: 3px;
+	text-decoration: none;
+	color: darkorange;
+	transition: .2s all ease-in-out;
+}
+.create > p > a:hover {
+	text-decoration: none;
+	color: white;
+	background-color: darkorange;
+	border-radius: 25px;
+	font-size: 12px;
+}
+.ask {
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+}
+
+.ask > p {
+	color: white;
+	margin-left: 5px;
+	letter-spacing: 2px;
+	font-size: 18px;
+	font-weight: 500;	
+}
+.ask > p > a{
+	text-decoration: none;
+	color: darkorange;
+}
+
+.ask > p > a:hover{
+	text-decoration: none;
+	color: darkorange;
+	font-size: 20px;
+	transition: .3s all ease-in-out;
+}

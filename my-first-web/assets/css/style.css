@@ -96,6 +96,7 @@ header {
 .link.show-menu {
 		position: absolute;
 		width: 40%;
+		padding: 3rem 7%;
 		right: 0;
 		transition: .5s ease;
 		z-index: -1;

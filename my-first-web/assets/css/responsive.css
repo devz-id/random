@@ -1,0 +1,72 @@
+@media screen and (max-width: 576px) {
+
+	.brand {
+		font-size: 1.5rem;
+	}
+
+	.link {
+		position: absolute;
+		right: -100%;
+		padding-top: 3rem;
+		background-color: #eee;
+		
+	}
+
+	.menu {
+		display: block;
+	}
+
+	.link ul {
+		display: block;
+		height: 100vh;
+	}
+
+	#home {
+		overflow-x: hidden;
+	}
+
+	.main {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		width: 100%;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	.main > h2 {
+		font-size: 1.5rem;
+		line-height: 1.7rem;
+		text-align: justify-all;
+		letter-spacing: 4px;
+	}
+
+	#product {
+		display: flex;
+		justify-content: center;
+		position: relative;
+		height: 100%;
+	}
+
+	#product > p {
+		font-size: 1.5rem;
+		line-height: 1.5rem;
+		letter-spacing: 4px;
+		text-align: center;
+	}
+
+	.collection {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 10%;
+	}
+
+	.collection img {
+		display: flex;
+		margin: 1rem auto;
+	}
+}
+
